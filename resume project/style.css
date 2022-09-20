@@ -1,0 +1,21 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 80px;
+}
+
+.title-style {
+  color: #1d3b62;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+

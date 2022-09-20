@@ -1,0 +1,73 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(209 213 219);
+}
+
+.login-form-body{
+    background-color: white;
+    width: 30%;
+    margin:100px auto;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+label,input{
+    display: block;
+    color:  #aaaaaa;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+input{
+    color: black;
+    margin-bottom:20px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+
+
+.error-input{
+    outline: 1px solid #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.correct-input{
+    outline: 1px solid #22c55e ;
+    border: 1px solid #22c55e;
+}
+
+button{
+    width: 100%;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.emsg{
+    color:#ef4444;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+
+#togglePassword{
+    position: absolute;
+    right: 5;
+    top: 10;
+    cursor: pointer;
+}
+
+#toggleConfirmPassword{
+    position: absolute;
+    right: 5;
+    top: 10;
+    cursor: pointer;
+}
